@@ -6,7 +6,7 @@ const AdminUpgradeabilityProxy = artifacts.require("AdminUpgradeabilityProxy");
 
 module.exports = async function(deployer) {
 
-   if(deployer.network_id == 3){
+   if(deployer.network_id == 33){
     return deployer.then(async function(){
        var ratingProxy = '0xe177b6568e4a62f0b8ae3e145f222d411926034e'
    

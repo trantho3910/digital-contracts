@@ -9,7 +9,7 @@ const BBToken = artifacts.require("BBToken");
 
 module.exports = async function(deployer) {
 
-   if(deployer.network_id != 777){
+   if(deployer.network_id == 777){
 
      let bbo = await BBToken.at('0x1d893910d30edc1281d97aecfe10aefeabe0c41b');
      console.log('bbo', bbo.address);

@@ -4,7 +4,7 @@ const BBStorage = artifacts.require("BBStorage");
 const BBFreelancerPayment = artifacts.require("BBFreelancerPayment");
 
 module.exports = async function(deployer) {
-	if (deployer.network_id == 3) {
+	if (deployer.network_id == 33) {
 	return deployer.then(async function(){
 		//await BBStorage.at('0xb83d8faa19b3bd03d200e4eb9f985ac247497726').addAdmin('0xda452218a3c7521f7de4aa1a1e9411998d77e468', true);
 		// await BBFreelancerPayment.at('0xf5cf17e2059b78ca9012475309c296c4e6c8a79c').addToken('0x1d893910d30edc1281d97aecfe10aefeabe0c41b', true);

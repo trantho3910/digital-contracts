@@ -18,6 +18,7 @@ module.exports = async function(deployer) {
     // var paramsProxy = '0x2866cef47dce5db897678695d08f0633102f164a'
     // var disputeProxy = '0xdeeaaad9a5f7c63fd2a29db1c9d522b056637b28'
     // var votingProxy = '0x347d3adf5081718020d11a2add2a52b39ad9971a'
+    return;
 
 
      var params, dispute, voting, votingHelper, paramsProxy, disputeProxy, votingProxy, votingHelperProxy;
